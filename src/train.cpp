@@ -33,7 +33,7 @@ count++;
 countOp++;
 van = van->next;
 } else {
-if (van>light) {
+if (van->light) {
 van->light = 0;
 countOp++;
 }
